@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+   
+}
+
+.navbar {
+    
+    background-image: linear-gradient(to right , #6dbbe7,#0e87eb,#1fb2ec );
+    
+    padding: 0 !important;
+}
+
+.navbar-brand,
+img {
+    width: 4rem;
+    height: 4rem;
+    /* padding: 5px; */
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+    /* transition: all 0.5s; */
+    
+}
+
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600 !important;
+    float: right;
+    text-align: left;
+    scroll-behavior: smooth !important;
+}
+.navbar-nav li a:hover{
+    color: black;
+}
+
+.toggle {
+    width: 2rem;
+    outline: none;
+}
+
+hr.line {
+    text-decoration: none;
+    outline: 0;
+    color: 000;
+}
+
+
+/* ---------------------banner-------------------------- */
+
+#banner {
+    background-image: linear-gradient(to right , #6dbbe7,#0e87eb,#1fb2ec );
+    
+    padding-top: 5%;
+    color: #fff;
+}
+
+#banner a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.promo-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+}
+
+.play-btn {
+    width: 5rem;
+    margin: 1.33rem;
+}
+
+.bnr-img {
+    width: 20rem;
+    height: 20rem;
+    /* margin-left: 2rem; */
+}
+
+.bottom-img {
+    width: 100%;
+    height: 5rem;
+}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .slide-image{
+    width: 400px; height: 250px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+/* ------------services--------- */
+
+#services {
+    padding: 5rem 0;
+}
+
+.service-section {
+    margin-top: 0;
+}
+
+
+
+.services h4 {
+    text-transform: uppercase;
+}
+
+.title::before {
+    content: '';
+    background: skyblue;
+    height: 5px;
+    width: 12.66rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(4rem);
+}
+
+.card-service{
+    height: 500px; margin: 40px 0px;
+}
+
+
+
+/* -----------------------about us-------------------- */
+
+.about-us {
+    background: #f9f8fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+li {
+    text-decoration: none !important;
+}
+.about-image{
+    height: 80%;
+    width: 100%;
+}
+
+.why-us {
+    font-size: 2.5rem;
+}
+
+
+/* ---------------------testimonal-------------------- */
+
+.card {
+    background-color: #0e87eb;
+    color: white;
+    border-radius: 70px;
+    /* height: 252px; */
+    
+}
+
+.extra{
+    margin: 5px 48px;
+}
+
+.card-profile{
+    background-color: white; color: black;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+.active{
+    background-color: white !important;
+}
+
+
+/* ------------------social icon-------------------- */
+
+.social-icon {
+    border-radius: 50%;
+}
+
+
+/* --------------------footer------------- */
+
+#footer {
+    background-image: linear-gradient(to right , #6dbbe7,#0e87eb,#1fb2ec );
+    color: #fff;
+}
+
+.footer-wave {
+    transform: rotate(180deg);
+    width: 100%;
+}
+
+.icon-contact {
+    width: 1rem;
+    margin: 0;
+}
+.contact-in{
+    margin: 8px 8px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 9px;
+    padding-left: 15px;
+    outline:none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .slideshow-container{
+      display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+    .slide-image{
+        width: 250px;
+    }
+  }
+
+
+@media only screen and (max-width: 1100px){
+
+}
+
+
+@media only screen and (min-width: 770px) and (max-width: 995px){
+.card-service{
+    height: 90%;
+}
+}
